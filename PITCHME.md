@@ -1,11 +1,11 @@
 # Certificate Generation & Checks
-
- What is Certificate?
- Certificate Terms.
- Types of Certificates.
- Certificate Contents.
- Certificate Generation.
- Certificate Authentication Process.
+Covers
+ - What is Certificate?
+ - Certificate Terms.
+ - Types of Certificates.
+ - Certificate Contents.
+ - Certificate Generation.
+ - Certificate Authentication Process.
 
 ---
 
@@ -17,4 +17,30 @@
 
 ---
 
+### Certificate Terms: PKI(Public Key Infrastructure)
+ - Includes hardware, software, people, policies, procedures for:
+  -- Management, sharing of public/pvt keys.
+ - Creation/storage/distribution of DIGITAL CERTIFICATES.
+
+ - PKI covers: 
+  -- Initialization (Key pairs)    
+  -- Registration of Certificates    
+  -- Certificate Generation(CA)    
+  -- Revocation    
+  -- Key Updation/Expiration/Recovery    
+  -- Cross Certification(Multiple Hierarchy of CA)
+
+ - Some PKI Providers: 
+  -- Microsoft (largest): CA integrated with AD       
+  -- Entrust: Entrust Authority    
+  -- CyberTrust: TrustedCA    
+  -- EMC/RSA: Keon Server
+  -- Verisign    
+  -- Red Hat Certificate System(New)
+
+ - Open source Solutions:
+  -- openCA    
+  -- EJBCA
+
+---
 
